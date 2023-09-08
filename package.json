@@ -1,9 +1,13 @@
 {
+  "bin": {
+    "practice": "./dist/index.js"
+  },
   "name": "practice-cli",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "tsc -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/ShahirZain/practice-cli/issues"
   },
-  "homepage": "https://github.com/ShahirZain/practice-cli#readme"
+  "homepage": "https://github.com/ShahirZain/practice-cli#readme",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
 }
